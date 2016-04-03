@@ -1,0 +1,134 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+@charset "utf-8";
+
+*, *::after, *::before { box-sizing: border-box; }
+* { outline: none!important; }
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  z-index: 999;
+}
+.background {
+  background-image: url(../img/main-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: Ionicons;
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/ionicons.eot?v=2.0.0);
+  src: url(../fonts/ionicons.eot?v=2.0.0#iefix) format("embedded-opentype"), url("../fonts/ionicons.ttf?v=2.0.0") format("truetype"), url("../fonts/ionicons.woff?v=2.0.0") format("woff"), url("../fonts/ionicons.svg?v=2.0.0#Ionicons") format("svg")
+}
+
+body {
+  color: #333;
+  font-family: Pontano Sans, sans-serif!important;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  margin: 0;
+  min-height: 100vh;
+  position: relative
+}
+.full-height {
+  display: block;
+  height: -o-calc(100vh - 100px);
+  height: calc(100vh - 0px);
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 100%
+}
+.container {
+  max-width: 1366px
+}
+h1 {
+  color: #333;
+  font-family: Montserrat, sans-serif!important;
+  font-size: 2.6rem;
+  font-weight: 700;
+  letter-spacing: -.1rem;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-transform: uppercase
+}
+p {
+  letter-spacing: .5px;
+  margin: 0;
+  position: relative
+}
+img {
+  border: 0;
+  display: block;
+  max-width: 100%
+}
+li, ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+a {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: .2s;
+  transition: .2s
+}
+a:hover {
+  color: white;
+  text-decoration: none!important
+}
+a:active, a:focus {
+  outline: 0;
+  text-decoration: none
+}
+.centered {
+  max-width: 400px;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+.location {
+  font-family: Montserrat, sans-serif!important;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+main {
+  -webkit-box-pack: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  -ms-flex-pack: center;
+  height: 100vh;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 8vw
+}
+
+@media (min-width: 400px) {
+  .container {
+    padding: 0 10px;
+    width: 100%
+  }
+}
+@media (min-width: 550px) {}
+@media (min-width: 750px) {}
+@media (min-width: 1000px) {}
+@media (min-width: 1200px) {}
