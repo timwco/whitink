@@ -105,6 +105,7 @@ a:active, a:focus {
   text-align: center;
   text-transform: uppercase;
   margin-top: 0;
+  display: none;
 }
 main {
   -webkit-box-pack: center;
